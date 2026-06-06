@@ -1,23 +1,23 @@
-#Relationship Between Group Means, Two-Sample t-Test, and Linear Regression in R
+# Relationship Between Group Means, Two-Sample t-Test, and Linear Regression in R
 
-#Overview
+## Overview
 This project demonstrates the statistical relationship between group mean comparison, 
 the independent two-sample t-test, and simple linear regression using a goat husbandry dataset.
 
 The analysis investigates whether the average weight of goats differs between male and female animals and 
 shows how the same research question can be answered using three different statistical approaches.
 
-#Research Question
+## Research Question
 Is there a significant difference in mean weight between male and female goats?
 
-#Dataset
+## Dataset
 Variables used in the analysis:
 * Weight (kg): Response variable
 * Sex: Categorical predictor variable
 * 0 = Female
 * 1 = Male
 
-#Statistical Methods
+## Statistical Methods
 1. Group Mean Comparison
 
 The mean weight of male and female goats was calculated separately.
@@ -42,20 +42,20 @@ Alternative Hypothesis (H₁): Male and female goats have different mean weights
 A simple linear regression model was fitted:
 lm(Weight ~ Sex, data = dataset)
 
-#Key Statistical Concept
+## Key Statistical Concept
 
 This project demonstrates an important statistical principle:
 
 For a categorical predictor with two groups, the significance test of the regression coefficient is mathematically 
 equivalent to the independent two-sample t-test.
-#Note:
+## Note:
 The p-value from the regression coefficient test corresponds to the p-value from the t-test.
 Three methods lead to the same statistical conclusion.
-#Software
+## Software
 * R Programming Language
 * Base R Statistical Functions
 * 
-#Skills Demonstrated
+## Skills Demonstrated
 * Data inspection and preparation
 * Descriptive statistics
 * Group mean comparison
@@ -64,7 +64,7 @@ Three methods lead to the same statistical conclusion.
 * Interpretation of categorical predictors
 * Statistical inference
 
-#Learning Outcome
+## Learning Outcome
 
 This project illustrates how descriptive statistics, hypothesis testing, and regression analysis are interconnected. 
 It provides a practical example of how different statistical techniques can be used to answer the same research question 
