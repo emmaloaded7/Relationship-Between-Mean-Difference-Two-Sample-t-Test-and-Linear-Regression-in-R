@@ -11,6 +11,8 @@ shows how the same research question can be answered using three different stati
 Is there a significant difference in mean weight between male and female goats?
 
 ## Dataset
+https://github.com/emmaloaded7/Relationship-Between-Mean-Difference-Two-Sample-t-Test-and-Linear-Regression-in-R/blob/master/goat_dataset.csv
+
 Variables used in the analysis:
 * Weight (kg): Response variable
 * Sex: Categorical predictor variable
