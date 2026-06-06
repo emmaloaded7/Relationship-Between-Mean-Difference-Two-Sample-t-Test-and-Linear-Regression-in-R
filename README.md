@@ -56,7 +56,7 @@ Three methods lead to the same statistical conclusion.
 ## Software
 * R Programming Language
 * Base R Statistical Functions
-* 
+
 ## Skills Demonstrated
 * Data inspection and preparation
 * Descriptive statistics
